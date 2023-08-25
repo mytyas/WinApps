@@ -1,0 +1,218 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2023.02.28 10:04:15 =~=~=~=~=~=~=~=~=~=~=~=
+login as: eperitest01
+eperitest01@10.42.2.51's password: 
+Welcome to Ubuntu 20.04 LTS (GNU/Linux 5.4.0-139-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Tue 28 Feb 2023 09:04:22 AM UTC
+
+  System load:  0.0                Processes:               225
+  Usage of /:   43.4% of 14.66GB   Users logged in:         1
+  Memory usage: 9%                 IPv4 address for ens160: 10.42.2.51
+  Swap usage:   0%
+
+ * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+   just raised the bar for easy, resilient and secure K8s cluster deployment.
+
+   https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+
+123 updates can be installed immediately.
+1 of these updates is a security update.
+To see these additional updates run: apt list --upgradable
+
+New release '22.04.2 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+
+Last login: Tue Feb 28 08:57:00 2023 from 10.11.5.107
+ls -a
+eperitest01@vcsa-eperitest:~$ ls -a
+.   .bash_history  .bashrc  .config   putty.log
+..  .bash_logout   .cache   .profile
+eperitest01@vcsa-eperitest:~$ ls -al /etc
+total 812
+drwxr-xr-x 94 root root       4096 Feb 28 07:02 .
+drwxr-xr-x 20 root root       4096 Feb 21 08:13 ..
+-rw-r--r--  1 root root       3028 Apr 23  2020 adduser.conf
+drwxr-xr-x  2 root root       4096 Feb 21 09:50 alternatives
+drwxr-xr-x  3 root root       4096 Apr 23  2020 apparmor
+drwxr-xr-x  7 root root       4096 Feb 21 08:53 apparmor.d
+drwxr-xr-x  3 root root       4096 Feb 21 08:25 apport
+drwxr-xr-x  7 root root       4096 Feb 21 08:09 apt
+-rw-r-----  1 root daemon      144 Nov 12  2018 at.deny
+-rw-r--r--  1 root root       2319 Feb 25  2020 bash.bashrc
+-rw-r--r--  1 root root         45 Jan 26  2020 bash_completion
+drwxr-xr-x  2 root root       4096 Feb 21 08:57 bash_completion.d
+-rw-r--r--  1 root root        367 Apr 14  2020 bindresvport.blacklist
+drwxr-xr-x  2 root root       4096 Apr 22  2020 binfmt.d
+drwxr-xr-x  2 root root       4096 Apr 23  2020 byobu
+drwxr-xr-x  3 root root       4096 Apr 23  2020 ca-certificates
+-rw-r--r--  1 root root       6824 Feb 21 08:18 ca-certificates.conf
+-rw-r--r--  1 root root       5713 Apr 23  2020 ca-certificates.conf.dpkg-old
+drwxr-xr-x  2 root root       4096 Apr 23  2020 calendar
+drwxr-xr-x  4 root root       4096 Feb 21 08:37 cloud
+drwxr-xr-x  2 root root       4096 Feb 21 09:44 console-setup
+drwxr-xr-x  2 root root       4096 Feb 21 08:25 cron.d
+drwxr-xr-x  2 root root       4096 Feb 21 08:30 cron.daily
+drwxr-xr-x  2 root root       4096 Apr 23  2020 cron.hourly
+drwxr-xr-x  2 root root       4096 Apr 23  2020 cron.monthly
+-rw-r--r--  1 root root       1042 Feb 13  2020 crontab
+drwxr-xr-x  2 root root       4096 Apr 23  2020 cron.weekly
+drwxr-xr-x  2 root root       4096 Feb 21 08:20 cryptsetup-initramfs
+-rw-r--r--  1 root root         54 Apr 23  2020 crypttab
+drwxr-xr-x  4 root root       4096 Apr 23  2020 dbus-1
+drwxr-xr-x  3 root root       4096 Apr 23  2020 dconf
+-rw-r--r--  1 root root       2969 Aug  3  2019 debconf.conf
+-rw-r--r--  1 root root         13 Dec  5  2019 debian_version
+drwxr-xr-x  3 root root       4096 Feb 28 06:19 default
+-rw-r--r--  1 root root        604 Sep 15  2018 deluser.conf
+drwxr-xr-x  2 root root       4096 Apr 23  2020 depmod.d
+drwxr-xr-x  4 root root       4096 Feb 21 08:29 dhcp
+drwxr-xr-x  4 root root       4096 Feb 21 08:27 dpkg
+-rw-r--r--  1 root root        685 Feb 14  2020 e2scrub.conf
+-rw-r--r--  1 root root        106 Feb 21 08:28 environment
+-rw-r--r--  1 root root       1816 Dec 27  2019 ethertypes
+drwxr-xr-x  4 root root       4096 Apr 23  2020 fonts
+-rw-r--r--  1 root root        473 Feb 21 08:13 fstab
+-rw-r--r--  1 root root        280 Jun 20  2014 fuse.conf
+drwxr-xr-x  3 root root       4096 Feb 21 08:22 fwupd
+-rw-r--r--  1 root root       2584 Feb  1  2020 gai.conf
+drwxr-xr-x  2 root root       4096 Apr 23  2020 groff
+-rw-r--r--  1 root root        876 Feb 28 07:02 group
+-rw-r--r--  1 root root        864 Feb 21 09:53 group-
+drwxr-xr-x  2 root root       4096 Feb 21 08:13 grub.d
+-rw-r-----  1 root shadow      738 Feb 28 07:02 gshadow
+-rw-r-----  1 root shadow      726 Feb 21 09:53 gshadow-
+drwxr-xr-x  3 root root       4096 Apr 23  2020 gss
+-rw-r--r--  1 root root       5060 Aug 21  2019 hdparm.conf
+-rw-r--r--  1 root root         92 Dec  5  2019 host.conf
+-rw-r--r--  1 root root         15 Feb 21 08:14 hostname
+-rw-r--r--  1 root root        229 Feb 21 08:14 hosts
+-rw-r--r--  1 root root        411 Feb 21 08:14 hosts.allow
+-rw-r--r--  1 root root        711 Feb 21 08:14 hosts.deny
+drwxr-xr-x  2 root root       4096 Feb 21 08:55 init.d
+drwxr-xr-x  5 root root       4096 Apr 23  2020 initramfs-tools
+-rw-r--r--  1 root root       1748 Feb 25  2020 inputrc
+drwxr-xr-x  4 root root       4096 Apr 23  2020 iproute2
+drwxr-xr-x  2 root root       4096 Apr 23  2020 iscsi
+-rw-r--r--  1 root root         24 Apr 15  2020 issue
+-rw-r--r--  1 root root         17 Apr 15  2020 issue.net
+drwxr-xr-x  6 root root       4096 Feb 21 08:12 kernel
+drwxrwxr-x  2 root landscape  4096 Apr 14  2020 landscape
+drwxr-xr-x  2 root root       4096 Feb 21 08:31 ldap
+-rw-r--r--  1 root root      24613 Feb 28 06:20 ld.so.cache
+-rw-r--r--  1 root root         34 Apr 14  2020 ld.so.conf
+drwxr-xr-x  2 root root       4096 Feb 21 08:25 ld.so.conf.d
+-rw-r--r--  1 root root        267 Dec  5  2019 legal
+-rw-r--r--  1 root root        191 Feb 18  2020 libaudit.conf
+drwxr-xr-x  2 root root       4096 Feb 21 08:13 libnl-3
+-rw-r--r--  1 root root       2996 Apr 14  2020 locale.alias
+-rw-r--r--  1 root root       9440 Feb 21 09:44 locale.gen
+lrwxrwxrwx  1 root root         27 Feb 21 08:45 localtime -> /usr/share/zoneinfo/Etc/UTC
+drwxr-xr-x  4 root root       4096 Apr 23  2020 logcheck
+-rw-r--r--  1 root root      10550 Feb  7  2020 login.defs
+-rw-r--r--  1 root root        533 Jan 21  2019 logrotate.conf
+drwxr-xr-x  2 root root       4096 Feb 21 08:53 logrotate.d
+-rw-r--r--  1 root root        102 Apr 15  2020 lsb-release
+-rw-r--r--  1 root root      14867 Feb  1  2019 ltrace.conf
+drwxr-xr-x  3 root root       4096 Apr 23  2020 lvm
+-r--r--r--  1 root root         33 Feb 21 08:09 machine-id
+-rw-r--r--  1 root root        111 Jan 16  2020 magic
+-rw-r--r--  1 root root        111 Jan 16  2020 magic.mime
+-rw-r--r--  1 root root       3623 Feb 21 08:55 mailcap
+-rw-r--r--  1 root root        449 Oct 18  2019 mailcap.order
+-rw-r--r--  1 root root       5215 Feb 25  2020 manpath.config
+drwxr-xr-x  2 root root       4096 Apr 23  2020 mdadm
+-rw-r--r--  1 root root      24546 Oct 18  2019 mime.types
+-rw-r--r--  1 root root        808 Feb 14  2020 mke2fs.conf
+drwxr-xr-x  2 root root       4096 Feb 28 06:19 modprobe.d
+-rw-r--r--  1 root root        195 Apr 23  2020 modules
+drwxr-xr-x  2 root root       4096 Feb 21 08:21 modules-load.d
+lrwxrwxrwx  1 root root         19 Apr 23  2020 mtab -> ../proc/self/mounts
+-rw-r--r--  1 root root         41 Apr  6  2020 multipath.conf
+-rw-r--r--  1 root root      10037 Feb  7  2020 nanorc
+drwxr-xr-x  2 root root       4096 Feb 21 08:09 netplan
+drwxr-xr-x  4 root root       4096 Apr 23  2020 network
+drwxr-xr-x  8 root root       4096 Apr 23  2020 networkd-dispatcher
+drwxr-xr-x  3 root root       4096 Apr 23  2020 NetworkManager
+-rw-r--r--  1 root root         91 Dec  5  2019 networks
+drwxr-xr-x  2 root root       4096 Apr 23  2020 newt
+-rw-r--r--  1 root root        510 Apr 23  2020 nsswitch.conf
+drwxr-xr-x  2 root root       4096 Apr 23  2020 opt
+lrwxrwxrwx  1 root root         21 Apr 15  2020 os-release -> ../usr/lib/os-release
+-rw-r--r--  1 root root       6920 Feb 25  2020 overlayroot.conf
+drwxr-xr-x  2 root root       4096 Feb 21 08:27 PackageKit
+-rw-r--r--  1 root root        552 Dec 17  2019 pam.conf
+drwxr-xr-x  2 root root       4096 Feb 21 08:58 pam.d
+-rw-r--r--  1 root root       2001 Feb 21 09:54 passwd
+-rw-r--r--  1 root root       1998 Feb 21 09:53 passwd-
+drwxr-xr-x  3 root root       4096 Apr 23  2020 perl
+drwxr-xr-x  4 root root       4096 Apr 23  2020 pki
+drwxr-xr-x  3 root root       4096 Apr 23  2020 pm
+drwxr-xr-x  4 root root       4096 Apr 23  2020 polkit-1
+drwxr-xr-x  2 root root       4096 Feb 21 08:13 pollinate
+-rw-r--r--  1 root root        350 Apr 23  2020 popularity-contest.conf
+-rw-r--r--  1 root root        581 Dec  5  2019 profile
+drwxr-xr-x  2 root root       4096 Feb 21 08:37 profile.d
+-rw-r--r--  1 root root       2932 Apr  1  2013 protocols
+-rw-------  1 root root          0 Apr 23  2020 .pwd.lock
+drwxr-xr-x  2 root root       4096 Apr 23  2020 python3
+drwxr-xr-x  2 root root       4096 Feb 21 08:19 python3.8
+drwxr-xr-x  2 root root       4096 Apr 23  2020 rc0.d
+drwxr-xr-x  2 root root       4096 Apr 23  2020 rc1.d
+drwxr-xr-x  2 root root       4096 Feb 21 08:14 rc2.d
+drwxr-xr-x  2 root root       4096 Feb 21 08:14 rc3.d
+drwxr-xr-x  2 root root       4096 Feb 21 08:14 rc4.d
+drwxr-xr-x  2 root root       4096 Feb 21 08:14 rc5.d
+drwxr-xr-x  2 root root       4096 Apr 23  2020 rc6.d
+drwxr-xr-x  2 root root       4096 Apr 23  2020 rcS.d
+lrwxrwxrwx  1 root root         39 Apr 23  2020 resolv.conf -> ../run/systemd/resolve/stub-resolv.conf
+lrwxrwxrwx  1 root root         13 Mar 15  2022 rmt -> /usr/sbin/rmt
+-rw-r--r--  1 root root        887 Apr  1  2013 rpc
+-rw-r--r--  1 root root       1382 Feb 11  2020 rsyslog.conf
+drwxr-xr-x  2 root root       4096 Feb 21 08:37 rsyslog.d
+-rw-r--r--  1 root root       3663 Jun 20  2016 screenrc
+drwxr-xr-x  4 root root       4096 Feb 21 08:28 security
+drwxr-xr-x  2 root root       4096 Apr 23  2020 selinux
+-rw-r--r--  1 root root      14464 Feb 16  2020 services
+-rw-r-----  1 root shadow     1469 Feb 21 09:53 shadow
+-rw-r-----  1 root shadow     1331 Feb 21 09:53 shadow-
+-rw-r--r--  1 root root        146 Feb 21 08:24 shells
+drwxr-xr-x  2 root root       4096 Feb 21 08:46 skel
+drwxr-xr-x  6 root root       4096 Feb 21 08:42 sos
+-rw-r--r--  1 root root        138 Feb 14  2020 sos.conf
+drwxr-xr-x  4 root root       4096 Feb 21 09:44 ssh
+drwxr-xr-x  4 root root       4096 Feb 21 08:51 ssl
+-rw-r--r--  1 root root         97 Feb 21 09:53 subgid
+-rw-r--r--  1 root root         72 Feb 21 09:53 subgid-
+-rw-r--r--  1 root root         97 Feb 21 09:53 subuid
+-rw-r--r--  1 root root         72 Feb 21 09:53 subuid-
+-r--r-----  1 root root        755 Feb  3  2020 sudoers
+drwxr-xr-x  2 root root       4096 Feb 21 08:54 sudoers.d
+-rw-r--r--  1 root root       2351 Feb 13  2020 sysctl.conf
+drwxr-xr-x  2 root root       4096 Feb 21 08:21 sysctl.d
+drwxr-xr-x  5 root root       4096 Feb 21 08:21 systemd
+drwxr-xr-x  2 root root       4096 Apr 23  2020 terminfo
+drwxr-xr-x  2 root root       4096 Feb 21 08:13 thermald
+-rw-r--r--  1 root root          8 Feb 21 08:45 timezone
+drwxr-xr-x  2 root root       4096 Apr 23  2020 tmpfiles.d
+drwxr-xr-x  2 root root       4096 Apr 23  2020 ubuntu-advantage
+-rw-r--r--  1 root root       1260 Dec 14  2018 ucf.conf
+drwxr-xr-x  4 root root       4096 Feb 21 08:17 udev
+drwxr-xr-x  3 root root       4096 Apr 23  2020 ufw
+drwxr-xr-x  3 root root       4096 Apr 23  2020 update-manager
+drwxr-xr-x  2 root root       4096 Feb 21 08:22 update-motd.d
+drwxr-xr-x  2 root root       4096 Apr  2  2020 update-notifier
+drwxr-xr-x  2 root root       4096 Feb 21 08:13 UPower
+drwxr-xr-x  2 root root       4096 Feb 21 08:20 vim
+drwxr-xr-x  4 root root       4096 Feb 21 08:51 vmware-tools
+lrwxrwxrwx  1 root root         23 Apr 23  2020 vtrgb -> /etc/alternatives/vtrgb
+-rw-r--r--  1 root root       4942 Jul 24  2019 wgetrc
+drwxr-xr-x  4 root root       4096 Apr 23  2020 X11
+-rw-r--r--  1 root root        642 Sep 24  2019 xattr.conf
+drwxr-xr-x  4 root root       4096 Apr 23  2020 xdg
+-rw-r--r--  1 root root        477 Oct  7  2019 zsh_command_not_found
+eperitest01@vcsa-eperitest:~$ 
