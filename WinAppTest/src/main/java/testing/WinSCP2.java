@@ -14,8 +14,8 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 public class WinSCP2 {
-    String name = "eperitest01";
-    String password = "eperitest01";
+    String name = "username";
+    String password = "password";
     public WindowsDriver driver = null;
     @BeforeMethod
     public void setUp() {
@@ -66,7 +66,7 @@ public class WinSCP2 {
 
         //Host name
         performAct.click(driver.findElement(By.xpath("//Window/Window/Pane/Pane/Pane/Edit[@ClassName='TEdit'][2]")));
-        performAct.sendKeys("10.42.2.51").build().perform();
+        performAct.sendKeys("ipaddress").build().perform();
 
         //User name
         performAct.click(driver.findElement(By.xpath("//Window/Window/Pane/Pane/Pane/Edit[@ClassName='TEdit'][1]")));
