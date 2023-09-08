@@ -16,9 +16,9 @@ public class Jsch {
         Session session = null;
         ChannelExec channel = null;
 
-        String username = "eperitest01";
-        String password = "eperitest01";
-        String host = "10.42.2.51";
+        String username = "username";
+        String password = "password";
+        String host = "ipaddress";
         int port = 22;
         String command = "ls -a";
         String command2 = "ls -al /etc";
