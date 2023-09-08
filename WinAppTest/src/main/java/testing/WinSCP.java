@@ -120,9 +120,9 @@ public class WinSCP {
 
     @Test
     public void logIn() throws InterruptedException {
-        type("10.42.2.51");
-        type("eperitest01");
-        type("eperitest01");
+        type("ipaddress");
+        type("username");
+        type("password");
         sleep(1000);
        // pressOneKeyShortcut(tab);
         pressOneKeyShortcut(tab);
