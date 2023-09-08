@@ -59,10 +59,10 @@ public class OutlookTests {
 
     @Test
     public void sendEmailOutlook() throws Exception {
-        String to = "milansencanski@gmail.com";
-        String cc = "milansencanski@gmail.com";
+        String to = "email";
+        String cc = "email";
         String subject = "Mail";
-        String body = "Prvi email sa attachmentom iz nase automatizacije";
+        String body = "Body";
 
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
