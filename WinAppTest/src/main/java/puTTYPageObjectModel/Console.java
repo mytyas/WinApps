@@ -19,8 +19,8 @@ public class Console extends Functions {
     public Console(WindowsDriver driver) {
         super(driver);
     }
-    String name = "eperitest01";
-    String password = "eperitest01";
+    String name = "user";
+    String password = "userpassword";
     String command = "ls -a";
     String command2 = "ls -al /etc";
 
