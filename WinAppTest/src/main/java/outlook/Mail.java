@@ -33,10 +33,10 @@ public Mail(WindowsDriver driver){
         winCapabilities.setCapability("appTopLevelWindow", winHandleHex);
         WindowsDriver driver = new WindowsDriver(new URL("http://127.0.0.1:4723"), winCapabilities);
 
-        String to = "Milan Sencanski";
-        String cc = "Milan Sencanski";
-        String subject = "Mail";
-        String body = "Prvi email sa attachmentom iz nase automatizacije";
+        String to = "Name Surname";
+        String cc = "Name Surname";
+        String subject = "Title";
+        String body = "Body";
 
         WebElement emailText = driver.findElement(By.xpath("//Window/Pane/Pane/Pane/Pane/Document/Edit"));
         WebElement fieldTo = driver.findElement(By.xpath("//Window/Pane/Pane/Edit[1]"));
