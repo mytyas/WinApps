@@ -117,8 +117,8 @@ public class Putty {
     @Test
     public void puttyControl() throws AWTException, IOException, InterruptedException {
 
-        String name = "eperitest01";
-        String password = "eperitest01";
+        String name = "username;
+        String password = "password";
         String command = "ls -a";
         String command2 = "ls -al /etc";
 
